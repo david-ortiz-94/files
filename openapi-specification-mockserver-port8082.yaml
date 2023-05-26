@@ -1,0 +1,15 @@
+# OpenAPI specification options
+openapi:
+  specification_url: 'https://david-ortiz-94.github.io/example-openapi-users.yaml'
+
+# web server options
+http:
+  cors_enabled: false
+  port: 8082
+  response_timeout: 1.0
+  
+# application specific options
+application:
+  debug: false
+  log_format: tty
+  log_level: info
